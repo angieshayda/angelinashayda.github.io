@@ -1,0 +1,123 @@
+<!DOCTYPE HTML>
+<!--
+	Solid State by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Research</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1><a href="index.html">Angelina Shayda</a></h1>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<div class="inner">
+							<h2>Menu</h2>
+							<ul class="links">
+								<li><a href="index.html">Home</a></li>
+								<li><a href="generic.html">Research</a></li>
+							</ul>
+							<a href="#" class="close">Close</a>
+						</div>
+					</nav>
+
+				<!-- Wrapper -->
+					<section id="wrapper">
+						<header>
+							<div class="inner">
+								<h2>Research</h2>
+								<p>Undergraduate Experience</p>
+							</div>
+						</header>
+
+						<!-- Content -->
+							<div class="wrapper">
+								<div class="inner">
+
+									<h3 class="major">FCAD Summer internship</h3>
+									<p>This internship ran for 10 weeks from June to August at UMass. I'm working with Professor Gopal Narayanan and graduate student Sandra Bustamante to create a bias card enclosure to add to the OMAyA cryostat chamber. The mechanical design of the enclosure includes computer aided design through SOLIDWORKS, creating machine ready drawings, verifying the integrity of the components, and the assembly of the parts. The enclosure will screw into the top of the cryostat chamber with the purpose of enclosing and connecting the bias cards.
+
+									<p>OMAyA stands for One Millimeter Array for Astronomy and will be installed in the Large Millimeter Telescope (LMT). It is an 8-pixel focal plane heterodyne receiver for the 1 mm band (210 to 280 GHz). It includes dual-polarization receivers and sideband separation mixers, creating extreme sensitivity. These mixers use SIS junctions which are considerably good heterodyne mixers because they have noise comparable to the quantum limit and a conversion gain that is less than 1, making them ideal for radio observations. OMAyA will be equipped with an On-The-Fly (OTF) mapping mode allowing it to create 10’ x 10’ maps with an RMS ~ 0.1K and an angular resolution of ~ 6 arcseconds in 80 minutes, implementing an innovative separation system that has a high level integration of amplifier, mixer, and local oscillator components.</p>
+
+									<h3 class="major">Toltec Unity Cluster</h3>
+									<p>For two semesters, I worked with Professor Robert Gutermuth using Alyssa Sokol’s paper from 2019, <em> Early science with the Large Millimetre Telescope: An LMT/AzTEC 1.1 mm Survey of dense cores in the Monoceros R2 giant molecular cloud</em> as well as Sarah Betti’s 2021 paper, <em> Robustness of Synthetic Observations in Producing Observed Core Properties: Predictions for the TolTEC Clouds to Cores Legacy Survey</em> as guides for my undergraduate research.</p>
+
+									<p>During my first semester, I  used TolTEC data of the Ophiuchus molecular cloud and scaled it back to 1400 parsecs. After I did this, I ran many different simulations and reductions using the Unity cluster to eventually pass through Sarah Betti’s ImSeg code. This code was able to take my reduced data and pull out the number of star cores that were left. I unfortunately was left with many problems at the end of this semester including what we called an ‘artifact’ that kept appearing in my reduced images. This data was able to help the development team fix the problem with the simulated atmosphere before new TolTEC data got released. </p>
+
+									<p>The second semester with Professor Gutermuth was focused on using <a href="https://www.starforge.space/">STARFORGE</a> data to run simulations. Using the M2e3 simulated cloud data, I ran my simulations and reductions once again on the Unity cluster. As this work was becoming quite tedious and was taking up a lot of space on my local computer, I was able to create a python script with the help of my professor to upload to Unity that would quickly print out what the image looked like with added contours scaled at 2.5, 5, 10, and 20 on the noise and weight map. This “quick view” script also printed out the noise value as well as the footprint value. This allowed me to recognize if anything had gone wrong before I downloaded each individual file. Although there was some downtime on the cluster since it is a developing software, I feel as though my work was able to help the development team fix what needed to be changed as I was continuously using the software running simulations and overall made the tedious work easier with my script.</p>
+
+									<p>The images below could then be produced to test to see if the simulation was running correctly without downloading gigabytes worth of data and other images. </p>
+
+									<center><img src="images/guter.jpeg" alt="" height="500" width="980"></center>
+
+
+
+
+								</div>
+							</div>
+
+					</section>
+
+				<!-- Footer -->
+					<section id="footer">
+						<div class="inner">
+							<h2 class="major">Get in touch</h2>
+							<p>Please reach out! I'm open to any questions or opportunities!</p>
+							<form method="post" action="#">
+								<div class="fields">
+									<div class="field">
+										<label for="name">Name</label>
+										<input type="text" name="name" id="name" />
+									</div>
+									<div class="field">
+										<label for="email">Email</label>
+										<input type="email" name="email" id="email" />
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="4"></textarea>
+									</div>
+								</div>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" /></li>
+								</ul>
+							</form>
+							<ul class="contact">
+								<li class="icon solid fa-envelope"><a href="#">ashayda@umass.edu</a></li>
+								<li class="icon brands fa-linkedin"><a href="https://www.linkedin.com/in/angelinashayda427/" target= "_blank">LinkedIn</a></li>
+								<li class="icon brands fa-instagram"><a href="https://www.instagram.com/angieshayda/" target= "_blank">Instagram</a></li>
+							</ul>
+							<ul class="copyright">
+								<li>&copy; Untitled Inc. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
